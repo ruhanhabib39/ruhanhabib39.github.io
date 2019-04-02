@@ -12,7 +12,8 @@
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- else -%}
-              {{ site.title | escape }}
+              <!-- {{ site.title | escape }} -->
+              Site author nai.
             {%- endif -%}
             </li>
             {%- if site.email -%}
@@ -27,6 +28,7 @@
 
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
+        <p>{%- include google-analytics.html -%}</p>
       </div>
     </div>
 
