@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+$$
+\int_E d\mu = \mu(E)
+$$
